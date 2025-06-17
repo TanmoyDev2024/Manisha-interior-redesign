@@ -1,0 +1,101 @@
+:root{
+    --title-font:"Raleway", sans-serif;
+    --regular-font: "Roboto", sans-serif;
+    --dark-gray:#333333;
+    --dark-charcoal:#0F0F0F;
+    --golden:#C19A45;
+}
+
+
+
+.custom-container{
+    width: min(1170px , 100%);
+    padding-inline: 15px;
+    margin-inline: auto;
+}
+
+.btn-primary{
+    color: #fff;
+    font-size: clamp(0.563rem, 0.435rem + 0.679vw, 1.25rem);
+    font-family: var(--regular-font);
+    font-weight: 400;
+    text-decoration: none;
+    background-color: var(--golden);
+    line-height: 1.2;
+    border-radius: 26px;
+    border: none;
+    padding: 15px 30px;
+    margin: 0;
+    width: fit-content;
+    text-transform: capitalize;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.4s;
+}
+
+
+.btn-primary:hover{
+    background: var(--dark-charcoal);
+    color: var(--golden);
+    font-weight: 500;
+}
+
+.line-shape{
+    width: 74px;
+    height: 8px;
+    background-color: var(--golden);
+    border-radius: 4px;
+}
+
+.section-title{
+    font-family: var(--regular-font);
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: clamp(1.125rem, 0.87rem + 1.358vw, 2.5rem);
+    line-height: 47px;
+    color: var(--golden);
+}
+
+.content-intro{
+    color: var(--dark-charcoal);
+    font-family:var(--title-font);
+    font-weight: 300;
+    font-size:clamp(1rem, 0.861rem + 0.741vw, 1.75rem);
+    line-height: 30px;
+    margin: 30px 0 ;
+    max-width: 85%;
+}
+
+.section-semi-title{
+    color: var(--dark-charcoal);
+    font-family: var(--regular-font);
+    font-weight: 400;
+    font-size: clamp(0.5625rem, 0.5046rem + 0.3086vw, 0.875rem);
+    line-height: 16px;
+    text-align: center;
+}
+
+.footer-icon-block{
+    border-radius: 50%;
+    width: clamp(0.938rem, 0.764rem + 0.926vw, 1.875rem);
+    height: clamp(0.938rem, 0.764rem + 0.926vw, 1.875rem);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    /* padding-top: 6px; */
+}
+
+.footer-icon-block:hover{
+    background-color: var(--dark-charcoal);
+}
+.footer-icon{
+    font-size: clamp(0.625rem, 0.5324rem + 0.4938vw, 1.125rem);
+    color: var(--golden);
+    line-height: 0;
+}
+
+.footer-link:hover{
+    color: var(--golden);
+}
